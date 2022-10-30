@@ -26,7 +26,7 @@ public class Bank {
     public int getOsszEgyenleg(Tulajdonos tulajdonos)
     {
 
-        return
+
     }
     public Szamla getLegnagyobbEgyenleguSzamla(Tulajdonos tulajdonos){
 

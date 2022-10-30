@@ -29,7 +29,7 @@ public class Szamla extends BankiSzolgaltatas {
 
     public Kartya ujKartya(String kartyaszam){
 
-        Kartya ujkartya= new Kartya(getTulajdonos(), );
+        Kartya ujkartya= new Kartya(getTulajdonos(), , kartyaszam);
 
 
 
