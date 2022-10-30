@@ -22,14 +22,18 @@ public class Szamla extends BankiSzolgaltatas {
     }
     public boolean kivesz(int osszeg){
 
-
+        aktualisEgyenleg-=osszeg;
         return true;
 
     }
 
     public Kartya ujKartya(String kartyaszam){
 
+        Kartya ujkartya= new Kartya(getTulajdonos(), );
 
+
+
+        return ujkartya;
 
     }
 
